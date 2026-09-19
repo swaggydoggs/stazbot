@@ -12,7 +12,6 @@ STAZOR_REALM_GUILD_ID = int(
     os.getenv("STAZOR_REALM_GUILD_ID", "0")
 )
 
-
 DATABASE_FILE = "stazbot.db"
 
 
@@ -29,3 +28,11 @@ SETUP_CHANNELS = [
     ("│「💡」│suggestions", "suggestions"),
     ("│「✨」│custom-roles", "custom-roles"),
 ]
+
+
+XP_MIN = 10
+XP_MAX = 20
+
+XP_COOLDOWN = 60
+
+STARTING_LEVEL = 1
